@@ -53,6 +53,13 @@ element.className is a property that sets or returns the class name of an elemen
 
 var getBuckets = ["Become more famous than that overrated fraud Garfield", "Visit Aoshima (aka Japan's Cat Island)", "Exhaust my entire 9 lives", "Pass DevLeague's coding challenge", "Become the next internet sensation", "eat tacos", "drinks gin", "read books", "sleep", "Drink coffee", "eat chips"];
 
+var bucketList = document.createElement('li');
+
+bucketList.class = "daList";
+
+bucketList.innerHTML = getBuckets;
+
+buckets.appendChild(bucketList);
 
 
 //Exerise 4
